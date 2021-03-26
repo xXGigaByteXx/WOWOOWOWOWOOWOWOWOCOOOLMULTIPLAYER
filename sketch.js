@@ -16,13 +16,13 @@ function draw(){
     if(keyDown("a")){
         writePosition(-5,0);
     }
-    else if(keyDown("d")){
+    if(keyDown("d")){
         writePosition(5,0);
     }
-    else if(keyDown("w")){
+    if(keyDown("w")){
         writePosition(0,-5);
     }
-    else if(keyDown("s")){
+    if(keyDown("s")){
         writePosition(0,+5);
     }
     drawSprites();
